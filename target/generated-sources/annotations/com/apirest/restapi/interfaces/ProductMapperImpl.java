@@ -13,7 +13,7 @@ import org.springframework.stereotype.Component;
 
 @Generated(
     value = "org.mapstruct.ap.MappingProcessor",
-    date = "2026-02-05T11:03:40-0300",
+    date = "2026-02-05T11:43:24-0300",
     comments = "version: 1.5.5.Final, compiler: Eclipse JDT (IDE) 3.45.0.v20260128-0750, environment: Java 21.0.9 (Eclipse Adoptium)"
 )
 @Component
@@ -91,10 +91,10 @@ public class ProductMapperImpl implements ProductMapper {
 
         ProductVariation.ProductVariationBuilder productVariation = ProductVariation.builder();
 
-        productVariation.sizeName( createProductVariationDto.sizeName() );
-        productVariation.description( createProductVariationDto.description() );
         productVariation.available( createProductVariationDto.available() );
+        productVariation.description( createProductVariationDto.description() );
         productVariation.price( createProductVariationDto.price() );
+        productVariation.sizeName( createProductVariationDto.sizeName() );
 
         return productVariation.build();
     }
