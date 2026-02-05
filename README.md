@@ -22,13 +22,10 @@ A API disponibiliza endpoints REST para o gerenciamento de produtos da pizzaria,
 
 ### 📦 Produtos
 
-| Método  | Endpoint            | Descrição                         |
-|--------|---------------------|-----------------------------------|
-| POST   | `/products`         | Cadastra um novo produto e suas variações         |
-| GET    | `/products`         | Lista todos os produtos           |
-| GET    | `/products/{id}`    | Busca um produto pelo ID          |
-| PUT    | `/products/{id}`    | Atualiza um produto existente     |
-| DELETE | `/products/{id}`    | Remove um produto pelo ID         |
+| Método  | Endpoint           | Descrição                                 |
+|--------|---------------------|-------------------------------------------|
+| POST   | `/products`         | Cadastra um novo produto e suas variações |
+| GET    | `/products`         | Lista todos os produtos                   |
 
 ---
 
