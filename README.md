@@ -7,7 +7,7 @@ Para este projeto foram utilizadas as ferramentas:
 <ul>
   <li>Spring Web</li>
   <li>Spring Boot DevTools</li>
-  <li>SPring Data JPA</li>
+  <li>Spring Data JPA</li>
   <li>H2 Database</li>
   <li>Lombok</li>
 </ul>
